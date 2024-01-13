@@ -2,7 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  --bg: #0d0c22;
+  --bgSoft: #2d2b42;
+  --text: white;
+  --textSoft: #e5e5e5;
+  --btn: #3673fd
+}
+
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1536px;
+  margin: auto;
+  min-height: 100vh;
 }
