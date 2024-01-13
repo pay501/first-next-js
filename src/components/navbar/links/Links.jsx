@@ -93,6 +93,15 @@ export default function Links() {
                                 >
                                     Admin
                                 </Link>
+                                {
+                                    isLogin ?
+                                    <div>
+                                        <button className="hover:bg-red-400 rounded-xl p-1 w-24 text-center">Logout</button>
+                                    </div>
+                                    :<div>
+                                        <button className="hover:bg-green-400 rounded-xl p-1 w-24 text-center">Login</button>
+                                    </div>
+                                }
                             </div>
                             
                         : <div></div>
