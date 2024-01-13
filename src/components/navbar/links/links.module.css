@@ -3,3 +3,29 @@
     background: var(--text);
     color: var(--bg);
 }
+
+@media (min-width: 768px) {
+    .menuBtn, .mobile{
+        display: none;
+    }
+    
+}
+
+@media (max-width : 768px){
+    .links{
+        display: none;
+    }
+    .menuBtn{
+        background: var(--btn);
+        padding: 4px;
+        border-radius: 8px;
+    }
+    .mobileLink{
+        padding: 20px;
+        background: var(--btn);
+        position: absolute;
+        margin-top: 2%;
+        border-radius: 8px;
+        right: 10px;
+    }
+}
