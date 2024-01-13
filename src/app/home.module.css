@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+
+.textContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    font-weight: 800;
+}
+
+.button{
+    background: var(--btn);
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:first-child{
+    background: rgb(49, 220, 49);
+    
+}
+
+.button:hover{
+    background: white;
+    color: black;
+    font-weight: 600;
+}
+
+.brands{
+    height: 50px;
+    width: 500px;
+    position: relative;
+}
+
+.imgContainer{
+    flex: 1;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 450px;
+}
